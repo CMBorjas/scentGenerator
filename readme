@@ -1,0 +1,42 @@
+# Scent Generator
+
+## Description
+* The Scent Generator project is designed to generate and manage various scents. 
+* This project aims to provide an easy-to-use interface for generating scents for the memory palace technique.
+* The Scents are kept in a text file lists (pleasant.txt & pungent.txt). 
+
+## Features
+- Generate random scents based on the following:
+    ```
+    1: Pleasant scent
+    2: Pugent scent
+
+    Expected output:
+        {Pleasant} and {Pungent}
+        Vanilla and Hot garbage
+    ```
+- Text based interface
+
+## Installation
+To install and run the Scent Generator, follow these steps:
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/CMBorjas/scentGenerator.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd scentGenerator
+    ```
+3. Install the required dependencies:
+    ```
+    npm install
+    ```
+
+## Usage
+To start the application, run:
+    ```
+    cargo run
+    ```
+
+Press enter to generate, enter 'exit' or 'q' to exit.
